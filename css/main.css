@@ -14,12 +14,9 @@ html {
 
 body {
   padding: 0;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
-h1 {
-  font-weight: 700;
-}
 
 .top-section {
   background-color: #70ad55;
@@ -32,6 +29,30 @@ h1 {
 }
 
 form {
-  border-bottom: 2px solid;
   border-color: #70ad55;
+}
+
+textarea {
+  height: 9em;
+}
+
+fieldset {
+  border-color: #70ad55;
+}
+
+input {
+  border-color: #6e8c62;
+}
+
+button {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+.footer-class {
+  background-color: #70ad55;
+}
+
+footer {
+  color: #fff;
 }

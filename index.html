@@ -13,7 +13,7 @@
 <body>
   <section>
 
-  <div class="pad-b pad-t top-section">
+  <div class="pad-b pad-t top-section gutter-1-2">
     <h1 class="zetta">Apply to be a tree planter</h1>
     <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </div>
@@ -21,7 +21,7 @@
   <form class="gutter-1-2">
 
     <fieldset>
-        <legend class="mega push pad-t-2">Personal details</legend>
+        <legend class="mega bold push pad-t-2">Personal details</legend>
 
       <div>
         <label for="Full-Name">Full name</labeL>
@@ -31,20 +31,20 @@
 
       <div>
         <label for="email">What should we call you?</label>
-        <input type="email "id="email">
-        <p class="under-text">What all your friends call you, e.g. "Liz".</p>
+        <input type="email"id="email">
+        <p class="under-text">What all your friends call you, e.g. “Liz”.</p>
       </div>
 
       <div class="push">
-        <label for="date of birth">Date of birth</label>
-        <input type="date" id="date of birth">
+        <label for="date-of-birth">Date of birth</label>
+        <input type="date" id="date-of-birth">
       </div>
 
       <div class="push">
         <label for="Size">T-Shirt size</label>
         <select id="Size">
           <option>Select a t-shirt size</option>
-          <option>Straight-cut : XS</option>
+          <option>Straight-cut: XS</option>
           <option>Medium</option>
           <option>Large</option>
         </select>
@@ -56,14 +56,14 @@
       </div>
 
       <div>
-        <label for="Phone Number">Phone number</label>
-        <input type="number" id="Phone Number">
+        <label for="phone-number">Phone number</label>
+        <input type="number" id="phone-number">
       </div>
     </fieldset>
 
     <fieldset>
       <div class="pad-t-2 pad-b">
-        <h2 class="tera">Address</h2>
+        <h2 class="mega bold">Address</h2>
 
         <div class="push">
           <label for="Address">Street address</labeL>
@@ -86,15 +86,16 @@
         </div>
 
         <div>
-          <label for="Postal Code">Postal Code</labeL>
-          <input type="text"id="Postal Code">
+          <label for="postal-code">Postal Code</labeL>
+          <input type="text"id="postal-code">
         </div>
+      </div>
       </fieldset>
 
       <fieldset>
         <div class="grid">
           <div class="unit pad-t-2 pad-b">
-            <label class="pad-t-1-2 push"> What activites are you interested in helping with?</label>
+            <label class=" mega bold pad-t-1-2 push"> What activities are you interested in helping with?</label>
 
             <div class="grid">
 
@@ -144,7 +145,7 @@
 
     <div class="grid">
       <div class="unit pad-t-2 pad-b">
-        <label class="pad-t-1-2 push">Do you have any experience with the following?</label>
+        <label class="mega bold pad-t-1-2 push">Do you have any experience with the following?</label>
 
         <div class="grid">
 
@@ -159,7 +160,7 @@
         </div>
 
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-4">
-        <input id="1" type="checkbox">
+        <input id="11" type="checkbox">
         <label for="11">Writing & blogging</label>
         </div>
 
@@ -205,31 +206,62 @@
   <fieldset>
 
     <div class="grid">
-      <label class="mega">Do you have a valid driver's license?</label>
 
-      <div class="unit xs-1-3 s-1-3 m-1-4 l-1-4">
-        <input id="yes-1" type="radio" name="yes-1">
+      <label class="mega bold pad-t-2 unit xs-1 s-1 m-1 l-1">Do you have a valid driver's license?</label>
+
+      <div class=" pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="yes-1" type="radio" name="first">
         <label for="yes-1">Yes</label>
       </div>
 
-      <div class="unit xs-1-3 s-1-3 m-1-4 l-1-4">
-        <input id="no-1" type="radio" name="no-1">
+      <div class=" pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="no-1" type="radio" name="first">
         <label for="no-1">No</label>
       </div>
 
-</fieldset>
+      <label class="mega bold pad-t-2 unit xs-1 s-1 m-1 l-1">Do you have a pick-up truck you'd be willing to use?</label>
 
+      <div class=" pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="yes-2" type="radio" name="second">
+        <label for="yes-2">Yes</label>
+      </div>
 
+      <div class=" pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="no-2" type="radio" name="second">
+        <label for="no-2">No</label>
+      </div>
 
+      <label class="mega bold pad-t-2 unit xs-1 s-1 m-1 l-1">Do you have up-to-date first-aid certification?</label>
 
-    <div>
-      <label for="message">Message</label>
-      <textarea id="message"></textarea>
+      <div class=" pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="yes-3" type="radio" name="third">
+        <label for="yes-3">Yes</label>
+      </div>
+
+      <div class=" pad-b-1-2 pad-t-1-2 unit xs-1-3 s-1-3 m-1-4 l-1-4">
+        <input id="no-3" type="radio" name="third">
+        <label for="no-3">No</label>
+      </div>
+    </div>
+    </fieldset>
+
+    <fieldset>
+      <div>
+        <label class="push-1-2 pad-t-2 mega bold" for="message">Please let us know any comments or questions you may have.</label>
+        <textarea id="message"></textarea>
+      </div>
+    </fieldset>
+
+    <div class="pad-b-2 unit-content-center">
+    <button class="gutter-2" type="submit">Apply</button>
     </div>
 
-    <button type="submit">Send</button>
-
   </form>
+
+  <div class="footer-class pad-t pad-b gutter-1-2">
+    <footer class="milli">© Tree Hugger International Organization</footer>
+  </div>
+
   </section>
 </body>
 </html>
