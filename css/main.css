@@ -1,0 +1,37 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.top-section {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.under-text {
+  font-size: .9rem;
+  font-style: italic;
+}
+
+form {
+  border-bottom: 2px solid;
+  border-color: #70ad55;
+}
