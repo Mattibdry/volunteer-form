@@ -17,7 +17,6 @@ body {
   font-family: "Droid Serif", serif;
 }
 
-
 .top-section {
   background-color: #70ad55;
   color: #fff;
@@ -55,4 +54,18 @@ button {
 
 footer {
   color: #fff;
+}
+
+.optional {
+  color: #70ad55;
+  font-style: italic;
+  margin-left: .5em;
+}
+
+.msg-box {
+  border-color: #6e8c62;
+}
+
+label {
+  padding-bottom: .2em;
 }
